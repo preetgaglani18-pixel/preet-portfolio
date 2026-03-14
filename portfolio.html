@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preet Gaglani | Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+/* Navbar */
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 80px;
+background:#020617;
+}
+
+nav h2{
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+}
+
+/* Hero */
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+margin:20px 0;
+max-width:600px;
+}
+
+.btn{
+padding:12px 25px;
+background:#38bdf8;
+border:none;
+border-radius:6px;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* Section */
+
+section{
+padding:80px 120px;
+}
+
+.section-title{
+font-size:34px;
+text-align:center;
+margin-bottom:40px;
+color:#38bdf8;
+}
+
+/* Work Cards */
+
+.work-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.work-card{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+}
+
+.work-card h3{
+margin-bottom:10px;
+color:#38bdf8;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>Preet</h2>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#work">My Work</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+<h1>Hello I'm <span>Preet Gaglani</span></h1>
+<p>First Year Engineering Student passionate about Product Design and Web Development.</p>
+
+<a href="#work">
+<button class="btn">View My Work</button>
+</a>
+
+</div>
+
+<section id="work">
+
+<h2 class="section-title">My Work</h2>
+
+<div class="work-container">
+
+<div class="work-card">
+<h3>Product Idea: Heritage Herbs</h3>
+<p><b>Problem:</b> Traditional herbal knowledge is slowly disappearing.</p>
+<p><b>Solution:</b> A platform where users enter ingredients available at home and get traditional herbal recipes with their history and benefits.</p>
+</div>
+
+<div class="work-card">
+<h3>UI Design Concept</h3>
+<p>Designed a clean landing page UI for the Heritage Herbs product showing ingredient input and recipe suggestions.</p>
+</div>
+
+<div class="work-card">
+<h3>Features</h3>
+<p>• Ingredient search</p>
+<p>• Traditional recipe suggestions</p>
+<p>• Health benefits</p>
+<p>• Cultural history</p>
+</div>
+
+<div class="work-card">
+<h3>Mini Projects</h3>
+<p>• Landing Page Website</p>
+<p>• Portfolio Website</p>
+<p>• Attendance System Idea</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<p style="text-align:center;">Phone: 9356074802</p>
+<p style="text-align:center;">email: preetgaglani18@gmail.com</p>
+
+
+
+</section>
+
+
+
+<footer>
+<p>© 2026 Preet Gaglani</p>
+</footer>
+
+</body>
+</html>
